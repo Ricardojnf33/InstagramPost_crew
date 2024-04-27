@@ -1,57 +1,66 @@
-# Instagram Crew
+# Instagram Content Strategy Automation
 
-Welcome to the Instagram Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+## Visão Geral
 
-## Installation
+Este projeto tem o objetivo de automatizar a estratégia de conteúdo do Instagram, integrando pesquisa de mercado, planejamento estratégico de conteúdo, descrição visual, redação e compilação de relatórios para criar uma estratégia de conteúdo coesa e eficaz. Utiliza um framework de agentes para coordenar e executar tarefas específicas, culminando em um plano de conteúdo semanal que está alinhado com as tendências atuais e preferências do público.
 
-Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [Poetry](https://python-poetry.org/) for dependency management and package handling, offering a seamless setup and execution experience.
+## Instalação
 
-First, if you haven't already, install Poetry:
+Certifique-se de ter o Python >=3.10 <=3.13 instalado no seu sistema. Este projeto utiliza o [Poetry](https://python-poetry.org/) para gerenciamento de dependências e manuseio de pacotes, oferecendo uma experiência de configuração e execução perfeita.
+
+Primeiro, se ainda não o fez, instale o Poetry:
 
 ```bash
 pip install poetry
 ```
 
-Next, navigate to your project directory and install the dependencies:
+Em seguida, navegue até o diretório do seu projeto e instale as dependências:
 
-1. First lock the dependencies and then install them:
+Segundo, bloqueie as dependências e depois instale-as:
 ```bash
 poetry lock
 ```
 ```bash
 poetry install
 ```
-### Customizing
+### Personalizando
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+**Adicione sua `OPENAI_API_KEY` no arquivo  `.env`**
+**Adicione sua `SERPER_API_KEY` no arquivo  `.env`**
 
-- Modify `src/instagram/config/agents.yaml` to define your agents
-- Modify `src/instagram/config/tasks.yaml` to define your tasks
-- Modify `src/instagram/crew.py` to add your own logic, tools and specific args
-- Modify `src/instagram/main.py` to add custom inputs for your agents and tasks
+## Funcionamento
 
-## Running the Project
+O sistema é composto por quatro agentes principais:
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+- **Pesquisador de Mercado do Instagram**: Analisa tendências, atividades de concorrentes e hashtags populares no Instagram.
+- **Estrategista de Conteúdo do Instagram**: Desenvolve um calendário de conteúdo semanal baseado em pesquisas.
+- **Descritor Visual do Instagram**: Cria descrições detalhadas das imagens que correspondem à estratégia de conteúdo.
+- **Redator do Instagram**: Escreve cópias envolventes para as postagens, seguindo a estratégia definida.
+
+Estas etapas são concretizadas em tarefas definidas no arquivo `tasks.yaml` e executadas de acordo com a sequência programada no `crew.py`.
+
+## Features
+
+- **Automated Market Research**: Coleta dados em tempo real para revelar conteúdo de alto desempenho no Instagram.
+- **Content Calendar Development**: Planeja o conteúdo visual e textual da semana.
+- **Visual Content Description**: Gera prompts detalhados para criação de imagens via IA.
+- **Copywriting**: Produz cópias alinhadas com a voz da marca e com SEO.
+- **Comprehensive Reporting**: Compila um relatório detalhado da estratégia de conteúdo para a semana.
+
+## Executando o Projeto
+
+Para iniciar sua equipe de agentes de IA e começar a execução das tarefas, execute isto a partir da pasta raiz do seu projeto:
 
 ```bash
 poetry run instagram
 ```
 
-This command initializes the instagram Crew, assembling the agents and assigning them tasks as defined in your configuration.
+Este comando inicializa a equipe do Instagram, montando os agentes e atribuindo-lhes tarefas conforme definido na sua configuração.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder
+Este exemplo criará uma pasta 'relatórios' com os relatórios das tarefas descritas anteriormente.
 
-## Understanding Your Crew
+## License
+Este projeto é distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-The instagram Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the Instagram Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Joing our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat wtih our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
+## Contact
+Para quaisquer outras questões ou comentários, entre em contato pelo e-mail: [ricardo.jnf1@gmail.com].

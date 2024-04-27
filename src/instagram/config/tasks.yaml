@@ -1,61 +1,59 @@
 market_research:
   description: >
-    Investigate the latest trends, hashtags, and competitor activities on Instagram specific 
-    to the industry of this Instagram account. Focus on gathering data that reveals what 
-    content performs well in the current year, identifying patterns, preferences, 
-    and emerging trends.
+    Investigue as últimas tendências, hashtags e atividades de concorrentes no Instagram específicas para a indústria desta conta do Instagram. Concentre-se em coletar dados que revelem o que conteúdo tem bom desempenho no ano atual, identificando padrões, preferências e tendências emergentes.
 
-    Current date: {current_date}
+    Data atual: {current_date}
 
-    Description of the instagram account for which you are doing this research:
+    Descrição da conta do instagram para a qual você está fazendo esta pesquisa:
     <INSTAGRAM_ACCOUNT_DESCRIPTION>{instagram_description}</INSTAGRAM_ACCOUNT_DESCRIPTION>
 
-    Find the most relevant topics, hashtags and trends to use the posts for next week.
-    The focus of the following week is the following:
+    Encontre os tópicos mais relevantes, hashtags e tendências para usar nas postagens da próxima semana.
+    O foco da semana seguinte é o seguinte:
     <NEXT_WEEK_CONTENT>{topic_of_the_week}</NEXT_WEEK_CONTENT>
 
-
   expected_output: >
-    A report with the most relevant information that you found, including relevant hashtags for this week's content and all other information that could be useful to the team working on content creation.
+    Um relatório com as informações mais relevantes que você encontrou, incluindo hashtags relevantes para o conteúdo desta semana e todas as outras informações que possam ser úteis para a equipe de criação de conteúdo.
 
 content_strategy_development:
   description: >
-    Based on the market research findings, develop a comprehensive content calendar for a week. The calendar should specify the theme for each day of the week (from Monday to Sunday) where some content should be posted, and preliminary ideas for post content. For now, focus on a three-day content calendar, including the most relevant keywords and hashtags to use in each post. 
-  
+    Com base nos resultados da pesquisa de mercado, desenvolva um calendário de conteúdo abrangente para uma semana. O calendário deve especificar o tema para cada dia da semana (de segunda a domingo) onde algum conteúdo deve ser postado, e ideias preliminares para o conteúdo da postagem. Por enquanto, concentre-se em um calendário de conteúdo de três dias, incluindo as palavras-chave e hashtags mais relevantes a serem usadas em cada postagem.
+
   expected_output: >
-    A detailed week-long content calendar, formatted as markdown, that includes days of the week (from monday to friday), a brief overview of content ideas, and the most relevant keywords and hashtags to use in each post. Ensure the calendar aligns with the identified trends and audience preferences.
+    Um calendário de conteúdo detalhado para a semana, formatado como markdown, que inclui os dias da semana (de segunda a sexta-feira), uma breve visão geral das ideias de conteúdo e as palavras-chave e hashtags mais relevantes a serem usadas em cada postagem. Garanta que o calendário esteja alinhado com as tendências identificadas e as preferências do público.
 
 visual_content_creation:
   description: >
-    Based on the content strategy for each Instagram post, create the the visual art that will be published on Instagram on each day of the week. To do that, you will need to create a detailed description of the image that you will use for each day. 
-    The descriptions that you will use need to be detailed, yet concise, and should include the main elements that should be present in the image. Describe the colors, the objects, the mood, and any other relevant information that you think is important for the image to be created.
+    Com base na estratégia de conteúdo para cada postagem no Instagram, crie a arte visual que será publicada no Instagram em cada dia da semana. Para isso, você precisará criar uma descrição detalhada da imagem que usará para cada dia. As descrições que você usará precisam ser detalhadas, mas concisas, e devem incluir os elementos principais que devem estar presentes na imagem. Descreva as cores, os objetos, o clima e qualquer outra informação relevante que você considere importante para a criação da imagem.
 
-    Here are some examples of the descriptions that you could use:
-    - A realistic image of a living room with a modern design. The room should have a large window with a view of a cityscape. The color palette should be neutral, with a pop of color in the form of a red sofa. The room should be well-lit, with a cozy and inviting atmosphere.
-    - A minimalist image of a desk with a laptop, a notebook, and a cup of coffee. The desk should be made of light wood, and the background should be a plain white wall. The image should convey a sense of focus and productivity.
-    - A vibrant image of a tropical beach at sunset. The beach should be deserted, with palm trees swaying in the wind. The sky should be a mix of warm colors, with the sun setting on the horizon. The image should evoke a sense of relaxation and tranquility.
+    Aqui estão alguns exemplos de descrições que você poderia usar:
+    - Uma imagem realista de uma sala de estar com um design moderno. A sala deve ter uma grande janela com vista para uma paisagem urbana. A paleta de cores deve ser neutra, com um toque de cor na forma de um sofá vermelho. A sala deve ser bem iluminada, com uma atmosfera aconchegante e convidativa.
+    - Uma imagem minimalista de uma escrivaninha com um laptop, um caderno e uma xícara de café. A escrivaninha deve ser de madeira clara, e o fundo deve ser uma parede branca lisa. A imagem deve transmitir uma sensação de foco e produtividade.
+    - Uma imagem vibrante de uma praia tropical ao pôr do sol. A praia deve estar deserta, com palmeiras balançando ao vento. O céu deve ser uma mistura de cores quentes, com o sol se pondo no horizonte. A imagem deve evocar uma sensação de relaxamento e tranquilidade.
+
   expected_output: >
-    A markdown document with detailed descriptions of the images that will be used for each Instagram post of the week. Each description should be concise and include the main elements, colors, mood, and any other relevant information that will guide the creation of the image. The descriptions should align with the content calendar and the identified trends.
+    Um documento em markdown com descrições detalhadas das imagens que serão usadas para cada postagem no Instagram da semana. Cada descrição deve ser concisa e incluir os elementos principais, cores, clima e qualquer outra informação relevante que guiará a criação da imagem. As descrições devem estar alinhadas com o calendário de conteúdo e as tendências identificadas.
 
 copywriting:
   description: >
-    Write captivating and relevant copy for each Instagram post of the week, aligning to the strategic themes of the content calendar. The copy should engage the audience, embody the brand's voice, and encourage interaction. The copy should also be SEO-friendly and incorporate the relevant keywords and hashtags contained in the content schedule. 
+    Escreva copys cativantes, relevantes e em português para cada postagem no Instagram da semana, alinhadas aos temas estratégicos do calendário de conteúdo. A copy deve envolver o público, incorporar a voz da marca e incentivar a interação. A cópia também deve ser amigável para SEO e incorporar as palavras-chave e hashtags relevantes contidas no cronograma de conteúdo.
 
-    Consider the following guidelines when writing the copy:
-    - Keep the copy concise and engaging.
-    - Include a call to action where appropriate.
-    - Use relevant keywords and hashtags.
-    - Ensure the copy aligns with the brand's voice and tone.
+    Considere as seguintes diretrizes ao escrever a copy:
+    - Mantenha a copy concisa e envolvente.
+    - Inclua uma chamada para ação onde for apropriado.
+    - Use palavras-chave e hashtags relevantes.
+    - Garanta que a copy esteja alinhada com a voz e o tom da marca.
 
-    Here are some examples of the copy that you could use:
-    - "Hello everyone! :heart: We're excited to share our latest collection with you. Check out our website for more details. #newcollection #fashion #style"
-    - "Happy Monday! :sunflower: Start your week right with our delicious smoothies. Visit our store today! #smoothies #healthyliving #mondaymotivation"
-    - "Feeling stressed? :massage: Treat yourself to a relaxing spa day. Book now and unwind in luxury. #spaday #relaxation #selfcare"
+    Aqui estão alguns exemplos da copy que você poderia usar:
+    - "Olá a todos! :heart: Estamos empolgados para compartilhar nossa última coleção com vocês. Confiram nosso site para mais detalhes. #novacoleção #moda #estilo"
+    - "Feliz segunda-feira! :sunflower: Comece sua semana direito com nossos deliciosos smoothies. Visite nossa loja hoje! #smoothies #vidasaudável #motivaçãodesegunda"
+    - "Está se sentindo estressado? :massage: Presenteie-se com um dia relaxante de spa. Reserve agora e desfrute do luxo. #diadespa #relaxamento #autocuidado"
+
   expected_output: >
-    A document formatted as markdown, with several sections. Each section should contain the copy for a single Instagram post, along with the relevant hashtags and calls to action. The copy should be engaging, on-brand, and aligned with the content calendar.
+    Um documento formatado como markdown, com várias seções. Cada seção deve conter a cópia para uma única postagem no Instagram, juntamente com as hashtags e chamadas para ação relevantes. A cópia deve ser envolvente, fiel à marca e alinhada ao calendário de conteúdo.
 
 report_final_content_strategy:
   description: >
-    Compile a comprehensive report that outlines the final content strategy for the week. The report should include the market research findings, the content calendar, the copy for each post, and the AI-generated images. Provide a brief rationale for the strategy, explaining how it aligns with the identified trends and audience preferences.
+    Compile um relatório abrangente que descreve a estratégia de conteúdo final para a semana. O relatório deve incluir os resultados da pesquisa de mercado, o calendário de conteúdo, a cópia de cada postagem e as imagens geradas por IA. Forneça uma breve justificativa para a estratégia, explicando como ela se alinha com as tendências identificadas e as preferências do público.
+
   expected_output: >
-    A detailed report that includes the market research findings, the content calendar, the copy for each post, and the AI-generated images. The report should be formatted as markdown and include a brief rationale for the strategy, explaining how it aligns with the identified trends and audience preferences.
+    Um relatório detalhado que inclui os resultados da pesquisa de mercado, o calendário de conteúdo, a cópia de cada postagem e as imagens geradas por IA. O relatório deve ser formatado como markdown e incluir uma breve justificativa para a estratégia, explicando como ela se alinha com as tendências identificadas e as preferências do público.

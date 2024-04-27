@@ -58,7 +58,7 @@ class InstagramCrew():
 		return Task(
 			config=self.tasks_config['market_research'],
 			agent=self.market_researcher(),
-			output_file="market_research.md",
+			output_file="relatórios/market_research.md",
 		)
 
 	@task
@@ -73,7 +73,7 @@ class InstagramCrew():
 		return Task(
 			config=self.tasks_config['visual_content_creation'],
 			agent=self.visual_describer(),
-			output_file="visual_description.md"
+			output_file="relatórios/visual_description.md"
 		)
 	
 	@task
@@ -81,7 +81,7 @@ class InstagramCrew():
 		return Task(
 			config=self.tasks_config['copywriting'],
 			agent=self.copywriter(),
-			output_file="copy_post.md"
+			output_file="relatórios/copy_post.md"
 		)
 	
 	@task
@@ -89,7 +89,7 @@ class InstagramCrew():
 		return Task(
 			config=self.tasks_config['report_final_content_strategy'],
 			agent=self.content_strategist(),
-			output_file="final-content-strategy.md"
+			output_file="relatórios/final-content-strategy.md"
 		)
 
 	@crew
