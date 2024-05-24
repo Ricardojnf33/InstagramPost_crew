@@ -1,4 +1,3 @@
-```markdown
 # Descrições de Imagens para o Instagram - Calendário de Conteúdo Semanal
 
 ## Segunda-feira: Publicações Educativas sobre IA

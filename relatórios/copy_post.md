@@ -1,4 +1,3 @@
-```markdown
 # Instagram Post Copies - Weekly Content Plan
 
 ## Monday: The Basics of Artificial Intelligence

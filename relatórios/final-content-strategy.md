@@ -1,4 +1,3 @@
-```markdown
 # Final Content Strategy Report for Instagram
 
 ## Overview
